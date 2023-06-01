@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93dc683b-3a06-4650-9d49-40d8561ec27f" name="Changes" comment="lesson 1. Modules: path, fs">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/folder1/text1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/folder2/text2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/folder3/text3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/folder4/text4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/folder5/text5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/test3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/test4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder/test5.txt" beforeDir="false" />
+    </list>
+    <list id="8d24e837-4424-4b0e-b58b-b8d6e73fc9fd" name="ignore" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_js_fundamentals.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QWA33kFbo7aGGs0wkk5DqU7B7a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93dc683b-3a06-4650-9d49-40d8561ec27f" name="Changes" comment="" />
+      <changelist id="8d24e837-4424-4b0e-b58b-b8d6e73fc9fd" name="ignore" comment="" />
+      <created>1685458760466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685458760466</updated>
+      <workItem from="1685458761537" duration="4471000" />
+      <workItem from="1685621853687" duration="9026000" />
+    </task>
+    <task id="LOCAL-00001" summary="node js project init. homework 1">
+      <created>1685463432487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685463432487</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson 1. Modules: path, fs">
+      <created>1685622281110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685622281110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="node js project init. homework 1" />
+    <MESSAGE value="lesson 1. Modules: path, fs" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 1. Modules: path, fs" />
+  </component>
+</project>

@@ -1,74 +1,80 @@
-// Створіть папку
-// В тій папці створіть 5 папок і 5 файлів
-// І за допомогою модулю fs виведіть в консоль, чи це папка чи це файл
+
+// const events = require('events');
+// const eventEmitter = new events()
 //
-// FILE: {fileName}
-// FOLDER: {folderName}
+// eventEmitter.on('click', ()=> {
+//     console.log('Event was clicked');
+// })
 //
-// !руками нічого не робимо, все через fs
+// eventEmitter.emit('click');
+// eventEmitter.emit('click');
+// eventEmitter.emit('click');
+// eventEmitter.emit('click');
+// eventEmitter.emit('click');
+//
+//
+// eventEmitter.once('Clicked and died event', ()=> {
+//     console.log('Clicked and died event');
+// });
+//
+//
+// eventEmitter.emit('Clicked and died event');
+// eventEmitter.emit('Clicked and died event');
+// eventEmitter.emit('Clicked and died event');
+// eventEmitter.emit('Clicked and died event');
+// eventEmitter.emit('Clicked and died event');
 
-const path = require('path')
-const fs = require('fs')
 
-const mainPath = path.resolve('folder')
-const path1 = path.resolve(path.join('folder', 'folder1'))
-const path2 = path.resolve(path.join('folder', 'folder2'))
-const path3 = path.resolve(path.join('folder', 'folder3'))
-const path4 = path.resolve(path.join('folder', 'folder4'))
-const path5 = path.resolve(path.join('folder', 'folder5'))
 
-// fs.mkdirSync(mainPath)
-// fs.mkdirSync(path1)
-// fs.mkdirSync(path2)
-// fs.mkdirSync(path3)
-// fs.mkdirSync(path4)
-// fs.mkdirSync(path5)
-
-const pathFile1 = path.resolve(path.join('folder', 'folder1', 'text1.txt'))
-const pathFile2 = path.resolve(path.join('folder', 'folder2', 'text2.txt'))
-const pathFile3 = path.resolve(path.join('folder', 'folder3', 'text3.txt'))
-const pathFile4 = path.resolve(path.join('folder', 'folder4', 'text4.txt'))
-const pathFile5 = path.resolve(path.join('folder', 'folder5', 'text5.txt'))
-
-// fs.writeFile(pathFile1, 'Hello my first file', (err) => {
-//     if (err) throw new Error(err.message)
+// const fs = require('fs');
+// const path = require('path');
+//
+// const readStream = fs.createReadStream('file.txt', {highWaterMark: 20 * 1024});
+// const writeStream = fs.createWriteStream('file2.txt');
+// readStream.on('data', (chunk) => {
+//     console.log(chunk);
 // })
-// fs.writeFile(pathFile2, 'Hello my first file', (err) => {
-//     if (err) throw new Error(err.message)
-// })
-// fs.writeFile(pathFile3, 'Hello my first file', (err) => {
-//     if (err) throw new Error(err.message)
-// })
-// fs.writeFile(pathFile4, 'Hello my first file', (err) => {
-//     if (err) throw new Error(err.message)
-// })
-// fs.writeFile(pathFile5, 'Hello my first file', (err) => {
-//     if (err) throw new Error(err.message)
-// })
+//
+// readStream
+//     .on('error', (err) => {
+//         readStream.destroy();
+//         writeStream.end('Failed to read file')
+//     })
+//     .pipe(writeStream)
 
-fs.writeFile(path.join(__dirname, 'folder', 'test1.txt'), 'Hello my first file', (err) => {
-    if (err) throw new Error(err.message)
-})
-fs.writeFile(path.join(__dirname, 'folder', 'test2.txt'), 'Hello my first file', (err) => {
-    if (err) throw new Error(err.message)
-})
-fs.writeFile(path.join(__dirname, 'folder', 'test3.txt'), 'Hello my first file', (err) => {
-    if (err) throw new Error(err.message)
-})
-fs.writeFile(path.join(__dirname, 'folder', 'test4.txt'), 'Hello my first file', (err) => {
-    if (err) throw new Error(err.message)
-})
-fs.writeFile(path.join(__dirname, 'folder', 'test5.txt'), 'Hello my first file', (err) => {
-    if (err) throw new Error(err.message)
-})
+const express = require('express');
+const app = express();
 
-fs.readdir(path.join(__dirname, 'folder'), {withFileTypes: true}, (err, files) => {
-    if (err) throw new Error(err.message);
-    files.forEach(file => {
-        if (file.isDirectory()) {
-            console.log('Folder: ', file.name);
-        } else {
-            console.log('FILE: ', file.name);
-        }
-    })
-})
+const users = [
+    {
+        name: 'Oleh',
+        age:2,
+        gender: 'male'
+    },
+    {
+        name: 'Olya',
+        age:2,
+        gender: 'female'
+    },
+    {
+        name: 'Denis',
+        age:2,
+        gender: 'male'
+    },
+    {
+        name: 'Kulya',
+        age:2,
+        gender: 'female'
+    }
+]
+
+app.get('/users/:id', (req, res) => {
+    const {id} = req.params;
+    res.status(200).json(users[+id]);
+});
+
+const PORT = 5001;
+
+app.listen(PORT, () => {
+    console.log(`server has started on PORT ${PORT} `);
+});
